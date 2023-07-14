@@ -1,0 +1,24 @@
+{
+    "name": "keven/record-jar",
+    "description": "Record-jar record format parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keven Godet",
+            "email": "contact@keven.fr",
+            "homepage": "http://keven.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8",
+        "ext-pcre": "*",
+        "psr/http-message": "^2.0",
+        "keven/stream": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keven\\RecordJar\\": "src"
+        }
+    }
+}
